@@ -1,0 +1,18 @@
+#board {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.box {
+  border: 1px solid black;
+  height: 150px;
+}
+
+.btn {
+  position: fixed;
+  right: 55%;
+  left: 48%;
+  margin-top: 20px;
+}
