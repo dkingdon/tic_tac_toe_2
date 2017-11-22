@@ -21,7 +21,39 @@
 
     <title>Tic Tac Toe</title>
   </head>
-  
+  <body>
+    <!-- Header text & game title  -->
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <h1>Tic Tac Toe</h1>
+          <hr>
+        </div>
+      </div>
 
+      <!-- Gameboard  -->
 
+      <div class="row">
+        <div class="col-md-6 col-md-offet-3" id="board">
+          <div id="topLeft" class="col-md-4 box"></div>
+          <div id="topMiddle" class="col-md-4 box"></div>
+          <div id="topRight" class="col-md-4 box"></div>
+        </div>
+        <div class="row">
+          <div id="midLeft" class="col-md-4 box"></div>
+          <div id="midMiddle" class="col-md-4 box"></div>
+          <div id="midRight" class="col-md-4 box"></div>
+        </div>
+        <div class="row">
+          <div id="botLeft" class="col-md-4 box"></div>
+          <div id="botMiddle" class="col-md-4 box"></div>
+          <div id="botRight" class="col-md-4 box"></div>
+        </div>
+      </div>
+
+      <!-- Reset Button -->
+      <button type="button" onclick="window.location.reload()" class="btn btn-success">Reset</button>
+
+    </div>
+  </body>
 </html>
