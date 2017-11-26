@@ -13,15 +13,13 @@ $(document).ready(function() {
     if (targetID !== "notAvail") {
 
       /* switches game piece */
-      if (turnSymbol === "O") {
-        turnSymbol = "X";
-      }
-      else {
-        turnSymbol = "O"
-      }
+      turnSymbol === "O" ? turnSymbol = "X" : turnSymbol = "O";
 
-      
-
+      $('#' + targetID).text(turnSymbol);
+      $('#' + targetID).prop('id', 'notAvail');
+    } /* end of target conditional*/
+    else {
+      alert("Sorry, that space is taken, please choose another space");
     };
 
   }); /* end of on click function */
